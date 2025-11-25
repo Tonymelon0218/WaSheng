@@ -1,4 +1,4 @@
-C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 13:42:56 PAGE 1   
+C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 16:45:53 PAGE 1   
 
 
 C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LT1605_DCS
@@ -62,7 +62,7 @@ line level    source
   52          code u8 dcs29[] = {0x31, 0x00};
   53          
   54          code u8 dcs30[] = {0x32, 0x04};
-C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 13:42:56 PAGE 2   
+C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 16:45:53 PAGE 2   
 
   55          code u8 dcs31[] = {0x33, 0x00};
   56          code u8 dcs32[] = {0x34, 0x0c};
@@ -126,7 +126,7 @@ line level    source
  113   2              }
  114   1              DelayMs(1);
  115   1              chip_write_i2c(0xC218, 0x00);
-C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 13:42:56 PAGE 3   
+C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 16:45:53 PAGE 3   
 
  116   1      }
  117          

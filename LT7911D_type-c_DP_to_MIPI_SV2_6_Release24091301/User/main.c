@@ -1,5 +1,6 @@
 #include "include.h"
 
+// 1920x1080@60Hz Timing
 TIMING g_TimingStr = 
 { 
 	148500	// PixelClock/1000
@@ -32,7 +33,7 @@ MIPI g_MipiSetStr =
 , 	NonContinuousClock		// ContinuousClock & NonContinuousClock
 };
 
-u8 FwVersion[6] = {0x16, 0x05, 0x25, 0x11, 0x25, 0x01};
+u8 FwVersion[6] = {0x16, 0x05, 0x25, 0x11, 0x25, 0x02};
 
 void Lt7911D_FwVersionSet(void)
 {

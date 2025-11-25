@@ -1,0 +1,1 @@
+"..\User\register.c" LARGE OPTIMIZE (8,SPEED) BROWSE INCDIR(..\User) DEBUG OBJECTEXTEND PRINT(.\Listings\register.lst) OBJECT(.\Objects\register.obj)

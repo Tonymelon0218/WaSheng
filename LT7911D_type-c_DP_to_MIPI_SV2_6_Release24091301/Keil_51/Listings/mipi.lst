@@ -1,4 +1,4 @@
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 1   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 1   
 
 
 C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MIPI
@@ -62,7 +62,7 @@ line level    source
               
                       rd_Hfp = chip_read_i2c(0xD29C) << 8;
                       rd_Hfp = rd_Hfp + chip_read_i2c(0xD29D);
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 2   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 2   
 
                       rd_Hfp = rd_Hfp*2;
                       
@@ -126,7 +126,7 @@ line level    source
  112   1              rd_Hspol = !((chip_read_i2c(0xD1DF) & 0x80) >> 7);
  113   1              rd_Vspol = !((chip_read_i2c(0xD1E5) & 0x80) >> 7);
  114   1      #endif
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 3   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 3   
 
  115   1      
  116   1              g_TimingStr.PixelClock = rd_PixelClock;
@@ -190,7 +190,7 @@ line level    source
  174   3                      }
  175   2                      else if (g_OutputMode == YUV444)
  176   2                      {
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 4   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 4   
 
  177   3                              if (rd_RgbRange == Full_Range)
  178   3                              {
@@ -254,7 +254,7 @@ line level    source
  236   2                      {
  237   3                              chip_write_i2c(0xA050, 0x04);
  238   3                              chip_write_i2c(0xA055, 0x00);
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 5   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 5   
 
  239   3                              chip_write_i2c(0xA057, 0x00);
  240   3                      }
@@ -318,7 +318,7 @@ line level    source
  298   1              // port1
  299   1              chip_write_i2c(0xB055, 0x34);
  300   1              chip_write_i2c(0xB05D, 0x9F);
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 6   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 6   
 
  301   1              chip_write_i2c(0xB05F, 0x9F);
  302   1              chip_write_i2c(0xB061, 0x8F);
@@ -382,7 +382,7 @@ line level    source
  360   1              chip_write_i2c(0xB03B, 0x01);
  361   1      
  362   1              if ((wr_byteclk < 187) && (wr_byteclk >= 80))
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 7   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 7   
 
  363   1              {
  364   2                      chip_write_i2c(0xB03E, 0x10);
@@ -446,7 +446,7 @@ line level    source
  422   1              rdbyteclk = g_MipiByteClock / 1000;
  423   1      
  424   1              wrhslpx = rdbyteclk / 10;               // hs lpx > 50ns
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 8   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 8   
 
  425   1              wrhsprep = rdbyteclk / 18 + 2;  // hs prep : (40ns + 4*UI)~(85ns + 6*UI)
  426   1              wrhszero = rdbyteclk / 6 + 1;   // hs zero > 145ns + 10UI - hsprep
@@ -510,7 +510,7 @@ line level    source
  484          {
  485   1              chip_write_i2c(0xC20C, g_TimingStr.Hactive / 256);
  486   1              chip_write_i2c(0xC20D, g_TimingStr.Hactive % 256);
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 9   
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 9   
 
  487   1              chip_write_i2c(0xC235, g_TimingStr.Vsw + g_TimingStr.Vbp);
  488   1      
@@ -574,7 +574,7 @@ line level    source
  546   2                      chip_write_i2c(0xC210, (g_TimingStr.Hactive / 4) / 256);
  547   2                      chip_write_i2c(0xC211, (g_TimingStr.Hactive / 4) % 256);
  548   2                      switch (g_MipiType)
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 10  
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 10  
 
  549   2                      {
  550   3                      case DSI:
@@ -638,7 +638,7 @@ line level    source
  608   4                                      // printf(">> MIPI format is CSI YUV422 8bit UYVY, datatype is 0x24! \n");
  609   4                              }
  610   3                              else if (g_MipiFormat == YUV422_8bit)
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 11  
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 11  
 
  611   3                              {
  612   4                                      chip_write_i2c(0xC217, 0xA4);
@@ -702,7 +702,7 @@ line level    source
  670   2                      chip_write_i2c(0xC203, 0x55);
  671   2                      break;
  672   2              case 3:
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 12  
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 12  
 
  673   2                      chip_write_i2c(0xC201, 0x30 | g_MipiSetStr.SetVideoMode | g_MipiType);
  674   2                      chip_write_i2c(0xC256, 0x30 | g_MipiSetStr.SetVideoMode | g_MipiType);
@@ -745,19 +745,17 @@ line level    source
  711   1              MipiDphySet();
  712   1              if (g_MipiType == DSI)
  713   1              {
- 714   2                      // printf(">> Inital Panel start!! \n");
- 715   2                      InitPanel();
- 716   2                      // printf(">> Inital Panel done!! \n");
- 717   2              }
- 718   1              else
- 719   1              {
- 720   2                      MipiRdDlyCal();
- 721   2              }
- 722   1              ColorSpaceConversion();
- 723   1              SyncPolAdjust();
- 724   1              MipiProtocalSet();
- 725   1              MipiVideoSet();
- 726   1      }
+ 714   2                      InitPanel();
+ 715   2              }
+ 716   1              else
+ 717   1              {
+ 718   2                      MipiRdDlyCal();
+ 719   2              }
+ 720   1              ColorSpaceConversion();
+ 721   1              SyncPolAdjust();
+ 722   1              MipiProtocalSet();
+ 723   1              MipiVideoSet();
+ 724   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
@@ -766,10 +764,10 @@ MODULE INFORMATION:   STATIC OVERLAYABLE
    XDATA SIZE       =   ----      51
    PDATA SIZE       =   ----    ----
    DATA SIZE        =   ----    ----
-C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 13:42:56 PAGE 13  
-
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
+C51 COMPILER V9.60.0.0   MIPI                                                              11/25/2025 16:45:53 PAGE 13  
+
 END OF MODULE INFORMATION.
 
 

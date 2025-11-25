@@ -1,4 +1,4 @@
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 1   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 1   
 
 
 C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LT7911
@@ -62,7 +62,7 @@ line level    source
   52   1      }
   53          
   54          void HPD_High(void)
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 2   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 2   
 
   55          {
   56   1              BKD0_05_REG |= 0x40; // AUX HPD
@@ -126,7 +126,7 @@ line level    source
  114          
  115          void RebulidEdid(void)
  116          {
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 3   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 3   
 
  117   1      #if 0
                       if(g_DisplayMode == VideoCopyMode)
@@ -190,7 +190,7 @@ line level    source
  176   1              BKD8_53_REG = Data;
  177   1      }
  178          
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 4   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 4   
 
  179          void DPCD_Init(void)
  180          {
@@ -254,7 +254,7 @@ line level    source
  238          {
  239   1              BKA0_46_REG |= 0x80;
  240   1              BKA0_46_REG &= 0xBF; // GPIO5 select gpo_out[4]
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 5   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 5   
 
  241   1              BKB0_8C_REG |= 0x77;
  242   1              BKA0_48_REG &= 0xFB; // Low
@@ -318,7 +318,7 @@ line level    source
  300   1              u16 rd_Vtotal, rd_Vactive;
  301   1      
  302   1      #if 1 ////take video from MSA
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 6   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 6   
 
  303   1              rd_Htotal = chip_read_i2c(0xD1DB) << 8;
  304   1              rd_Htotal = rd_Htotal + chip_read_i2c(0xD1DC);
@@ -382,7 +382,7 @@ line level    source
  360          
  361          void Lt7911_InitialSteps(void)
  362          {
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 7   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 7   
 
  363   1              volatile u8 count = 0;
  364   1              bool FlagIRQSend = 0;
@@ -446,7 +446,7 @@ line level    source
  422   7                                                              Traindown_Flag = FALSE;
  423   7                                                              FlagVideoOK = TRUE;
  424   7                                                              g_FlagVideoChange = FALSE;
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 8   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 8   
 
  425   7                                                              Flag_Aux_Sleep = FALSE;
  426   7                                                              Dp_Audio();
@@ -510,7 +510,7 @@ line level    source
                                                               delay1ms1(250);
                                                               g_FlagHdcpEn = 0;
                                                               IRQ_Send();
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 9   
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 9   
 
                                                               delay1ms1(500);
                                                               FlagIRQSend = 1;
@@ -574,7 +574,7 @@ line level    source
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
    CODE SIZE        =   1808    ----
-C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 13:42:56 PAGE 10  
+C51 COMPILER V9.60.0.0   LT7911                                                            11/25/2025 16:45:53 PAGE 10  
 
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----      18

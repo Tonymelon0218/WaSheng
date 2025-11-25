@@ -711,9 +711,7 @@ void MipiInitial(void)
 	MipiDphySet();
 	if (g_MipiType == DSI)
 	{
-		// printf(">> Inital Panel start!! \n");
 		InitPanel();
-		// printf(">> Inital Panel done!! \n");
 	}
 	else
 	{

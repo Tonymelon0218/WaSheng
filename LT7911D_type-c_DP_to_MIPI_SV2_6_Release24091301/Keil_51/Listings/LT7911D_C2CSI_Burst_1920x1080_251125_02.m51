@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/25/2025  14:33:30  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/25/2025  16:45:53  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
@@ -59,7 +59,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             IDATA   000DH     0007H     UNIT         ?ID?INT
                     0014H     000CH                  *** GAP ***
             BIT     0020H.0   0001H.1   UNIT         ?BI?PRINTF?PRINTF
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 2
 
 
                     0021H.1   0000H.7                *** GAP ***
@@ -119,7 +119,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   9062H     0001H     ABSOLUTE     
                     9063H     0002H                  *** GAP ***
             XDATA   9065H     0001H     ABSOLUTE     
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 3
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 3
 
 
                     9066H     0FAFH                  *** GAP ***
@@ -179,7 +179,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   A067H     0001H     ABSOLUTE     
             XDATA   A068H     0001H     ABSOLUTE     
             XDATA   A069H     0001H     ABSOLUTE     
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 4
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 4
 
 
                     A06AH     0026H                  *** GAP ***
@@ -239,7 +239,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   B043H     0001H     ABSOLUTE     
             XDATA   B044H     0001H     ABSOLUTE     
                     B045H     0003H                  *** GAP ***
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 5
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 5
 
 
             XDATA   B048H     0001H     ABSOLUTE     
@@ -299,7 +299,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   B082H     0001H     ABSOLUTE     
             XDATA   B083H     0001H     ABSOLUTE     
             XDATA   B084H     0001H     ABSOLUTE     
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 6
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 6
 
 
             XDATA   B085H     0001H     ABSOLUTE     
@@ -359,7 +359,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   C123H     0001H     ABSOLUTE     
                     C124H     0008H                  *** GAP ***
             XDATA   C12CH     0001H     ABSOLUTE     
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 7
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 7
 
 
             XDATA   C12DH     0001H     ABSOLUTE     
@@ -419,7 +419,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   C203H     0001H     ABSOLUTE     
             XDATA   C204H     0001H     ABSOLUTE     
             XDATA   C205H     0001H     ABSOLUTE     
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 8
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 8
 
 
             XDATA   C206H     0001H     ABSOLUTE     
@@ -479,7 +479,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   C252H     0001H     ABSOLUTE     
             XDATA   C253H     0001H     ABSOLUTE     
             XDATA   C254H     0001H     ABSOLUTE     
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 9
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 9
 
 
                     C255H     0001H                  *** GAP ***
@@ -539,7 +539,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   D1D0H     0001H     ABSOLUTE     
             XDATA   D1D1H     0001H     ABSOLUTE     
             XDATA   D1D2H     0001H     ABSOLUTE     
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 10
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 10
 
 
             XDATA   D1D3H     0001H     ABSOLUTE     
@@ -599,7 +599,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   D23DH     0001H     ABSOLUTE     
             XDATA   D23EH     0001H     ABSOLUTE     
                     D23FH     0008H                  *** GAP ***
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 11
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 11
 
 
             XDATA   D247H     0001H     ABSOLUTE     
@@ -659,7 +659,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             XDATA   DABAH     0001H     ABSOLUTE     
             XDATA   DABBH     0001H     ABSOLUTE     
             XDATA   DABCH     0001H     ABSOLUTE     
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 12
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 12
 
 
             XDATA   DABDH     0001H     ABSOLUTE     
@@ -719,7 +719,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             CODE    2FF9H     00C7H     UNIT         ?PR?_RD_DPCD202?DP
             CODE    30C0H     00B8H     UNIT         ?PR?ANALYSIS_VDM_MSG?TYPEC
             CODE    3178H     00B5H     UNIT         ?PR?_READDPCD?DP
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 13
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 13
 
 
             CODE    322DH     00A6H     UNIT         ?PR?IT1INTERRUPTSERVICE?INT
@@ -779,7 +779,7 @@ LINK MAP OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_START
             CODE    3EA1H     0015H     UNIT         ?PR?SET_I2S_D2_LOW?LT7911
             CODE    3EB6H     0014H     UNIT         ?PR?DP_HDCP_CONFIG?DP
             CODE    3ECAH     0012H     UNIT         ?PR?ENABLE_VYSNC?LT7911
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 14
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 14
 
 
             CODE    3EDCH     000FH     UNIT         ?PR?DISABLE_VSYNC?LT7911
@@ -839,7 +839,7 @@ SEGMENT                                   XDATA_GROUP
   +--> ?PR?_EDID_CHECKSUM_CALC?EDID
 
 ?PR?_EDID_DTB_BLOCK_CALC?EDID           02BEH    0007H
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 15
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 15
 
 
 
@@ -899,7 +899,7 @@ SEGMENT                                   XDATA_GROUP
   +--> ?PR?VIDEOCHECK?MIPI
   +--> ?PR?MIPILANESWAP?MIPI
   +--> ?PR?MIPIPORTSET?MIPI
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 16
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 16
 
 
   +--> ?PR?MIPICLOCKSET?MIPI
@@ -959,7 +959,7 @@ SEGMENT                                   XDATA_GROUP
 
 ?PR?MIPIVIDEOSET?MIPI                   -----    -----
   +--> ?PR?_CHIP_WRITE_I2C?MIPI
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 17
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 17
 
 
   +--> ?PR?_DELAYMS?MIPI
@@ -1019,7 +1019,7 @@ SEGMENT                                   XDATA_GROUP
 
 ?PR?PATTERN_TRAINING?DP                 -----    -----
   +--> ?PR?_DPCD_PARAMETER1?DP
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 18
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 18
 
 
   +--> ?PR?TRAINING_RESET?DP
@@ -1079,7 +1079,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:0000H         PUBLIC        Edid
   -------         PROC          _EDID_DTB_BLOCK_CALC
   X:02BEH         SYMBOL        Pbuf
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 19
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 19
 
 
   -------         DO            
@@ -1139,7 +1139,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:02E1H         PUBLIC        time1_100ms
   X:02E2H         PUBLIC        g_SampleRate
   X:02E4H         PUBLIC        g_ChipModel
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 20
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 20
 
 
   X:02E5H         PUBLIC        g_MipiFormat
@@ -1161,27 +1161,27 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:02A1H         PUBLIC        g_MipiSetStr
   X:02A4H         PUBLIC        g_TimingStr
   -------         PROC          LT7911D_FWVERSIONSET
-  C:3A9FH         LINE#         37
   C:3A9FH         LINE#         38
   C:3A9FH         LINE#         39
-  C:3AA7H         LINE#         40
-  C:3AAFH         LINE#         41
-  C:3AB7H         LINE#         42
-  C:3ABFH         LINE#         43
-  C:3AC7H         LINE#         44
-  C:3ACFH         LINE#         45
+  C:3A9FH         LINE#         40
+  C:3AA7H         LINE#         41
+  C:3AAFH         LINE#         42
+  C:3AB7H         LINE#         43
+  C:3ABFH         LINE#         44
+  C:3AC7H         LINE#         45
+  C:3ACFH         LINE#         46
   -------         ENDPROC       LT7911D_FWVERSIONSET
   -------         PROC          MAIN
-  C:3C4BH         LINE#         46
-  C:3C4BH         LINE#         47
   C:3C4BH         LINE#         48
-  C:3C51H         LINE#         50
-  C:3C55H         LINE#         51
-  C:3C5AH         LINE#         52
-  C:3C5FH         LINE#         53
-  C:3C63H         LINE#         54
-  C:3C67H         LINE#         55
-  C:3C6DH         LINE#         57
+  C:3C4BH         LINE#         49
+  C:3C4BH         LINE#         50
+  C:3C51H         LINE#         52
+  C:3C55H         LINE#         53
+  C:3C5AH         LINE#         54
+  C:3C5FH         LINE#         55
+  C:3C63H         LINE#         56
+  C:3C67H         LINE#         57
+  C:3C6DH         LINE#         59
   -------         ENDPROC       MAIN
   -------         ENDMOD        MAIN
 
@@ -1199,7 +1199,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:C200H         PUBLIC        BKC2_00_REG
   X:A040H         PUBLIC        BKA0_40_REG
   X:B030H         PUBLIC        BKB0_30_REG
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 21
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 21
 
 
   X:B021H         PUBLIC        BKB0_21_REG
@@ -1259,7 +1259,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:C123H         PUBLIC        BKC1_23_REG
   X:C132H         PUBLIC        BKC1_32_REG
   X:C006H         PUBLIC        BKC0_06_REG
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 22
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 22
 
 
   X:A062H         PUBLIC        BKA0_62_REG
@@ -1319,7 +1319,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:C207H         PUBLIC        BKC2_07_REG
   X:C135H         PUBLIC        BKC1_35_REG
   X:C117H         PUBLIC        BKC1_17_REG
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 23
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 23
 
 
   X:D800H         PUBLIC        BKD8_00_REG
@@ -1379,7 +1379,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:B084H         PUBLIC        BKB0_84_REG
   X:B075H         PUBLIC        BKB0_75_REG
   X:B057H         PUBLIC        BKB0_57_REG
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 24
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 24
 
 
   X:B066H         PUBLIC        BKB0_66_REG
@@ -1439,7 +1439,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:A0A1H         PUBLIC        BKA0_A1_REG
   X:D249H         PUBLIC        BKD2_49_REG
   X:D267H         PUBLIC        BKD2_67_REG
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 25
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 25
 
 
   X:B089H         PUBLIC        BKB0_89_REG
@@ -1499,7 +1499,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:B01EH         PUBLIC        BKB0_1E_REG
   X:C21CH         PUBLIC        BKC2_1C_REG
   X:C20DH         PUBLIC        BKC2_0D_REG
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 26
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 26
 
 
   X:C12CH         PUBLIC        BKC1_2C_REG
@@ -1559,7 +1559,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:D1D3H         PUBLIC        BKD1_D3_REG
   X:B80BH         PUBLIC        BKB8_0B_REG
   X:B07CH         PUBLIC        BKB0_7C_REG
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 27
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 27
 
 
   X:B06DH         PUBLIC        BKB0_6D_REG
@@ -1619,7 +1619,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:C1AEH         PUBLIC        BKC1_AE_REG
   X:DAA4H         PUBLIC        BKDA_A4_REG
   X:DBA4H         PUBLIC        BKDB_A4_REG
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 28
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 28
 
 
   X:C1AFH         PUBLIC        BKC1_AF_REG
@@ -1679,7 +1679,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   B:0088H.2       PUBLIC        IT1
   D:008AH         PUBLIC        TL0
   D:008BH         PUBLIC        TL1
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 29
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 29
 
 
   C:3BD7H         PUBLIC        CC_INT
@@ -1739,7 +1739,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3A45H         LINE#         45
   C:3A4BH         LINE#         46
   C:3A51H         LINE#         48
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 30
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 30
 
 
   C:3A5BH         LINE#         49
@@ -1799,7 +1799,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3815H         LINE#         97
   C:381AH         LINE#         98
   C:381AH         LINE#         99
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 31
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 31
 
 
   C:3822H         LINE#         100
@@ -1859,7 +1859,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:2DF1H         LINE#         191
   C:2DFEH         LINE#         192
   C:2E0BH         LINE#         193
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 32
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 32
 
 
   C:2E18H         LINE#         194
@@ -1919,7 +1919,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   -------         ENDPROC       DISABLE_VSYNC
   -------         PROC          SET_I2S_D2_HIGH
   C:3E8CH         LINE#         258
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 33
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 33
 
 
   C:3E8CH         LINE#         259
@@ -1979,7 +1979,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:2A35H         LINE#         345
   C:2A38H         LINE#         346
   C:2A38H         LINE#         347
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 34
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 34
 
 
   C:2A47H         LINE#         348
@@ -2039,7 +2039,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:1B91H         LINE#         400
   C:1B94H         LINE#         401
   C:1B94H         LINE#         402
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 35
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 35
 
 
   C:1B94H         LINE#         403
@@ -2099,7 +2099,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:1C59H         LINE#         462
   C:1C59H         LINE#         497
   C:1C5CH         LINE#         499
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 36
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 36
 
 
   C:1C5CH         LINE#         500
@@ -2159,7 +2159,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3B3CH         PUBLIC        _DelayMs
   C:249EH         PUBLIC        MipiVideoSet
   C:3930H         PUBLIC        SyncPolAdjust
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 37
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 37
 
 
   C:25E8H         PUBLIC        MipiDphySet
@@ -2219,7 +2219,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:02CAH         SYMBOL        rd_Hbp
   X:02CCH         SYMBOL        rd_Vtotal
   X:02CEH         SYMBOL        rd_Vactive
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 38
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 38
 
 
   D:0004H         SYMBOL        rd_Vstart
@@ -2279,7 +2279,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:1198H         LINE#         131
   -------         ENDPROC       VIDEOCHECK
   -------         PROC          COLORSPACECONVERSION
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 39
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 39
 
 
   -------         DO            
@@ -2339,7 +2339,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:1F6AH         LINE#         190
   C:1F75H         LINE#         191
   C:1F75H         LINE#         192
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 40
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 40
 
 
   C:1F7AH         LINE#         193
@@ -2399,7 +2399,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:2045H         LINE#         248
   -------         ENDPROC       COLORSPACECONVERSION
   -------         PROC          SYNCPOLADJUST
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 41
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 41
 
 
   C:3930H         LINE#         250
@@ -2459,7 +2459,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:2F93H         LINE#         309
   C:2F9AH         LINE#         310
   C:2FA1H         LINE#         311
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 42
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 42
 
 
   C:2FA6H         LINE#         312
@@ -2519,7 +2519,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:14D7H         LINE#         365
   C:14DDH         LINE#         366
   C:14DFH         LINE#         367
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 43
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 43
 
 
   C:14F7H         LINE#         368
@@ -2579,7 +2579,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:25E8H         LINE#         417
   C:25E8H         LINE#         418
   C:25E8H         LINE#         422
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 44
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 44
 
 
   C:2602H         LINE#         424
@@ -2639,7 +2639,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:11F2H         LINE#         496
   C:11F2H         LINE#         497
   C:11F2H         LINE#         498
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 45
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 45
 
 
   C:11FEH         LINE#         499
@@ -2699,7 +2699,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:132FH         LINE#         559
   C:132FH         LINE#         560
   C:1332H         LINE#         561
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 46
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 46
 
 
   C:133CH         LINE#         562
@@ -2759,7 +2759,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:1438H         LINE#         621
   -------         ENDPROC       MIPIPROTOCALSET
   -------         PROC          MIPIRDDLYCAL
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 47
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 47
 
 
   -------         DO            
@@ -2819,7 +2819,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:24EBH         LINE#         673
   C:24FFH         LINE#         674
   C:2511H         LINE#         675
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 48
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 48
 
 
   C:2518H         LINE#         676
@@ -2860,15 +2860,15 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3BBAH         LINE#         711
   C:3BBDH         LINE#         712
   C:3BC3H         LINE#         713
-  C:3BC3H         LINE#         715
-  C:3BC6H         LINE#         717
-  C:3BC8H         LINE#         719
-  C:3BC8H         LINE#         720
-  C:3BCBH         LINE#         721
-  C:3BCBH         LINE#         722
-  C:3BCEH         LINE#         723
-  C:3BD1H         LINE#         724
-  C:3BD4H         LINE#         725
+  C:3BC3H         LINE#         714
+  C:3BC6H         LINE#         715
+  C:3BC8H         LINE#         717
+  C:3BC8H         LINE#         718
+  C:3BCBH         LINE#         719
+  C:3BCBH         LINE#         720
+  C:3BCEH         LINE#         721
+  C:3BD1H         LINE#         722
+  C:3BD4H         LINE#         723
   -------         ENDPROC       MIPIINITIAL
   -------         ENDMOD        MIPI
 
@@ -2879,7 +2879,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:284BH         PUBLIC        Sleep_Out
   C:2848H         PUBLIC        dcsrst
   C:286EH         PUBLIC        dcs10
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 49
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 49
 
 
   C:2882H         PUBLIC        dcs20
@@ -2939,7 +2939,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:02C2H         SYMBOL        Ptr
   -------         DO            
   X:02C5H         SYMBOL        i
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 50
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 50
 
 
   -------         ENDDO         
@@ -2999,7 +2999,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:356BH         PUBLIC        Pattern_Training
   I:0023H         PUBLIC        Dpcd107_Write
   C:3E5EH         PUBLIC        _RxAuxSendData
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 51
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 51
 
 
   I:0024H         PUBLIC        AuxRxSendData
@@ -3059,7 +3059,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3A69H         PUBLIC        DP_CDR_PI
   I:0047H         PUBLIC        Align_Flag
   C:3CFCH         PUBLIC        PCR_Reset
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 52
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 52
 
 
   C:3EB6H         PUBLIC        DP_HDCP_Config
@@ -3119,7 +3119,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3D4CH         LINE#         99
   C:3D51H         LINE#         100
   C:3D58H         LINE#         101
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 53
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 53
 
 
   C:3D58H         LINE#         102
@@ -3179,7 +3179,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3C25H         LINE#         137
   C:3C25H         LINE#         138
   C:3C25H         LINE#         139
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 54
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 54
 
 
   C:3C27H         LINE#         141
@@ -3239,7 +3239,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:356BH         LINE#         184
   C:3579H         LINE#         185
   C:3579H         LINE#         186
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 55
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 55
 
 
   C:3583H         LINE#         187
@@ -3299,7 +3299,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:30BFH         LINE#         271
   C:30BFH         LINE#         273
   -------         ENDPROC       _RD_DPCD202
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 56
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 56
 
 
   -------         PROC          _READDPCD
@@ -3359,7 +3359,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   -------         ENDDO         
   C:21DBH         LINE#         347
   C:21DDH         LINE#         348
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 57
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 57
 
 
   C:21DDH         LINE#         349
@@ -3419,7 +3419,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:22C5H         LINE#         415
   C:22C5H         LINE#         417
   C:22C5H         LINE#         419
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 58
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 58
 
 
   C:22C5H         LINE#         421
@@ -3479,7 +3479,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:37A6H         LINE#         499
   C:37ACH         LINE#         500
   C:37B2H         LINE#         501
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 59
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 59
 
 
   C:37B7H         LINE#         502
@@ -3539,7 +3539,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3BA6H         LINE#         557
   C:3BAAH         LINE#         558
   C:3BADH         LINE#         559
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 60
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 60
 
 
   -------         ENDPROC       MAINLINK
@@ -3599,7 +3599,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:2781H         LINE#         617
   C:2795H         LINE#         619
   C:27A6H         LINE#         620
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 61
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 61
 
 
   C:27BAH         LINE#         622
@@ -3659,7 +3659,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:001EH         LINE#         662
   C:001EH         LINE#         663
   C:001EH         LINE#         664
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 62
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 62
 
 
   C:0026H         LINE#         665
@@ -3719,7 +3719,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:020FH         LINE#         731
   C:020FH         LINE#         733
   C:021BH         LINE#         734
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 63
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 63
 
 
   C:021BH         LINE#         735
@@ -3779,7 +3779,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   X:02D0H         SYMBOL        Skew
   -------         ENDDO         
   C:0B92H         LINE#         788
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 64
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 64
 
 
   C:0B92H         LINE#         789
@@ -3839,7 +3839,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   -------         PROC          DP_HDCP_CONFIG
   C:3EB6H         LINE#         872
   C:3EB6H         LINE#         873
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 65
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 65
 
 
   C:3EB6H         LINE#         874
@@ -3899,7 +3899,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:322DH         PUBLIC        IT1InterruptService
   -------         PROC          INTERRUPTTYPEC
   C:2A79H         LINE#         19
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 66
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 66
 
 
   C:2A79H         LINE#         20
@@ -3959,7 +3959,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:2B69H         LINE#         82
   C:2B69H         LINE#         83
   C:2B69H         LINE#         84
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 67
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 67
 
 
   C:2B69H         LINE#         85
@@ -4019,7 +4019,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:23FAH         LINE#         196
   C:2406H         LINE#         197
   C:2406H         LINE#         198
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 68
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 68
 
 
   C:2409H         LINE#         199
@@ -4079,7 +4079,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:2495H         LINE#         278
   C:2498H         LINE#         279
   C:249DH         LINE#         280
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 69
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 69
 
 
   C:249DH         LINE#         283
@@ -4139,7 +4139,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3273H         LINE#         341
   C:3275H         LINE#         342
   C:3275H         LINE#         343
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 70
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 70
 
 
   C:3275H         LINE#         345
@@ -4199,7 +4199,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:1CE3H         PUBLIC        CCSendSndData
   X:024FH         PUBLIC        SendMegSndDataOffset
   X:0250H         PUBLIC        Status2
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 71
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 71
 
 
   X:0251H         PUBLIC        nack_loop
@@ -4259,7 +4259,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3607H         LINE#         123
   C:360CH         LINE#         124
   C:3610H         LINE#         125
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 72
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 72
 
 
   C:3616H         LINE#         126
@@ -4319,7 +4319,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   -------         PROC          SEND_MESSAGE
   C:3483H         LINE#         180
   C:3483H         LINE#         181
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 73
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 73
 
 
   C:3483H         LINE#         183
@@ -4379,7 +4379,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   -------         ENDPROC       REQUEST_UCC_FIX
   -------         PROC          ANALYSIS_VDM_MSG
   C:30C0H         LINE#         232
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 74
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 74
 
 
   C:30C0H         LINE#         233
@@ -4439,7 +4439,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:3177H         LINE#         291
   C:3177H         LINE#         293
   C:3177H         LINE#         295
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 75
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 75
 
 
   C:3177H         LINE#         296
@@ -4499,7 +4499,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
   C:36D2H         LINE#         378
   C:36D7H         LINE#         379
   C:36DDH         LINE#         381
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 76
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 76
 
 
   C:36E0H         LINE#         384
@@ -4559,7 +4559,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
 
   -------         MODULE        ?C?ULDIV
   C:06B5H         PUBLIC        ?C?ULDIV
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 77
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 77
 
 
   -------         ENDMOD        ?C?ULDIV
@@ -4619,7 +4619,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\LT7911D_C2CSI_Burst_1920x1080_251125_02 (?C_S
     SEGMENT: ?PR?IRQ_SEND?LT7911
 
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  14:33:30  PAGE 78
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/25/2025  16:45:53  PAGE 78
 
 
     SEGMENT: ?PR?DISABLE_VSYNC?LT7911
