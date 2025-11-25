@@ -1,0 +1,12 @@
+".\Objects\STARTUP.obj",
+".\Objects\edid.obj",
+".\Objects\globalV.obj",
+".\Objects\main.obj",
+".\Objects\register.obj",
+".\Objects\Lt7911.obj",
+".\Objects\mipi.obj",
+".\Objects\lt1605_dcs.obj",
+"..\User\V26_2024091301.LIB" 
+TO ".\Objects\V26" 
+PRINT(".\Listings\V26.m51") RAMSIZE(256) 
+XDATA( 0X0000-0X03FF )

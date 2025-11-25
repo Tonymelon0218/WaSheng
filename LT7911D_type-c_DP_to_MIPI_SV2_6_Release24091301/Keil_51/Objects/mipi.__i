@@ -1,0 +1,1 @@
+"..\User\mipi.c" LARGE OPTIMIZE (8,SPEED) BROWSE INCDIR(..\User) DEBUG OBJECTEXTEND PRINT(.\Listings\mipi.lst) OBJECT(.\Objects\mipi.obj)

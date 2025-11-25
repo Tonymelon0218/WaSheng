@@ -1,0 +1,554 @@
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE REGISTER
+OBJECT MODULE PLACED IN .\Objects\register.obj
+COMPILER INVOKED BY: D:\DevTools\Keil_5\Keil_v5\C51\BIN\C51.EXE ..\User\register.c LARGE OPTIMIZE(8,SPEED) BROWSE INCDIR
+                    -(..\User) DEBUG OBJECTEXTEND PRINT(.\Listings\register.lst) OBJECT(.\Objects\register.obj)
+
+line level    source
+
+   1          
+   2          #include "include.h"
+   3          
+   4          u8      XDATA   BK80_58_REG             _at_            0x8058;
+   5          u8      XDATA   BK80_59_REG             _at_            0x8059;
+   6          u8      XDATA   BK80_5A_REG             _at_            0x805A;
+   7          u8      XDATA   BK80_5B_REG             _at_            0x805B;
+   8          u8      XDATA   BK80_5C_REG             _at_            0x805C;
+   9          u8      XDATA   BK80_5D_REG             _at_            0x805D;
+  10          u8      XDATA   BK80_5E_REG             _at_            0x805E;
+  11          u8      XDATA   BK80_5F_REG             _at_            0x805F;
+  12          
+  13          //BANK 90
+  14          u8      XDATA   BK90_02_REG             _at_            0x9002;
+  15          u8      XDATA   BK90_03_REG             _at_            0x9003;
+  16          u8      XDATA   BK90_05_REG             _at_            0x9005;
+  17          u8      XDATA   BK90_0A_REG             _at_            0x900A;
+  18          u8      XDATA   BK90_07_REG             _at_            0x9007;
+  19          u8      XDATA   BK90_0D_REG             _at_            0x900D;
+  20          u8      XDATA   BK90_0F_REG             _at_            0x900F;
+  21          u8      XDATA   BK90_10_REG             _at_            0x9010;
+  22          u8      XDATA   BK90_51_REG             _at_            0x9051;
+  23          u8      XDATA   BK90_55_REG             _at_            0x9055;
+  24          u8      XDATA   BK90_57_REG             _at_            0x9057;
+  25          u8      XDATA   BK90_58_REG             _at_            0x9058;
+  26          u8      XDATA   BK90_5A_REG             _at_            0x905A;
+  27          u8      XDATA   BK90_5B_REG             _at_            0x905B;
+  28          u8      XDATA   BK90_5C_REG             _at_            0x905C;
+  29          u8      XDATA   BK90_5D_REG             _at_            0x905D;
+  30          u8      XDATA   BK90_5E_REG             _at_            0x905E;
+  31          u8      XDATA   BK90_5F_REG             _at_            0x905F;
+  32          u8      XDATA   BK90_60_REG             _at_            0x9060;
+  33          u8      XDATA   BK90_61_REG             _at_            0x9061;
+  34          u8      XDATA   BK90_62_REG             _at_            0x9062;
+  35          
+  36          
+  37          //BANK B0
+  38          u8      XDATA   BKB0_00_REG             _at_            0xB000;
+  39          u8      XDATA   BKB0_05_REG             _at_            0xB005;
+  40          u8      XDATA   BKB0_12_REG             _at_            0xB012;
+  41          u8      XDATA   BKB0_14_REG             _at_            0xB014;
+  42          u8      XDATA   BKB0_18_REG             _at_            0xB018;
+  43          u8      XDATA   BKB0_19_REG             _at_            0xB019;
+  44          u8      XDATA   BKB0_1A_REG             _at_            0xB01A;
+  45          u8      XDATA   BKB0_1C_REG             _at_            0xB01C;
+  46          u8      XDATA   BKB0_1D_REG             _at_            0xB01D;
+  47          u8      XDATA   BKB0_1E_REG             _at_            0xB01E;
+  48          u8      XDATA   BKB0_1F_REG             _at_            0xB01F;
+  49          u8      XDATA   BKB0_20_REG             _at_            0xB020;
+  50          u8      XDATA   BKB0_21_REG             _at_            0xB021;
+  51          u8      XDATA   BKB0_22_REG             _at_            0xB022;
+  52          u8      XDATA   BKB0_28_REG             _at_            0xB028;
+  53          u8      XDATA   BKB0_2C_REG             _at_            0xB02C;
+  54          u8      XDATA   BKB0_2E_REG             _at_            0xB02E;
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 2   
+
+  55          u8      XDATA   BKB0_30_REG             _at_            0xB030;
+  56          u8      XDATA   BKB0_32_REG             _at_            0xB032;
+  57          u8      XDATA   BKB0_33_REG             _at_            0xB033;
+  58          u8      XDATA   BKB0_34_REG             _at_            0xB034;
+  59          u8      XDATA   BKB0_39_REG             _at_            0xB039;
+  60          u8      XDATA   BKB0_3A_REG             _at_            0xB03A;
+  61          u8      XDATA   BKB0_3B_REG             _at_            0xB03B;
+  62          u8      XDATA   BKB0_3E_REG             _at_            0xB03E;
+  63          u8      XDATA   BKB0_3F_REG             _at_            0xB03F;
+  64          u8      XDATA   BKB0_40_REG             _at_            0xB040;
+  65          u8      XDATA   BKB0_41_REG             _at_            0xB041;
+  66          u8      XDATA   BKB0_42_REG             _at_            0xB042;
+  67          u8      XDATA   BKB0_43_REG             _at_            0xB043;
+  68          u8      XDATA   BKB0_44_REG             _at_            0xB044;
+  69          u8      XDATA   BKB0_55_REG             _at_            0xB055;
+  70          u8      XDATA   BKB0_66_REG             _at_            0xB066;
+  71          u8      XDATA   BKB0_77_REG             _at_            0xB077;
+  72          u8      XDATA   BKB0_89_REG             _at_            0xB089;
+  73          u8      XDATA   BKB0_92_REG             _at_            0xB092;
+  74          u8      XDATA   BKB0_57_REG             _at_            0xB057;
+  75          u8      XDATA   BKB0_5C_REG             _at_            0xB05c;
+  76          u8      XDATA   BKB0_5E_REG             _at_            0xB05e;
+  77          u8      XDATA   BKB0_60_REG             _at_            0xB060;
+  78          u8      XDATA   BKB0_62_REG             _at_            0xB062;
+  79          u8      XDATA   BKB0_64_REG             _at_            0xB064;
+  80          u8      XDATA   BKB0_08_REG             _at_            0xB008;
+  81          u8      XDATA   BKB0_0B_REG             _at_            0xB00B;
+  82          u8      XDATA   BKB0_10_REG             _at_            0xB010;
+  83          u8      XDATA   BKB0_39_REG             _at_            0xB039;
+  84          u8      XDATA   BKB0_8A_REG             _at_            0xB08A;
+  85          u8      XDATA   BKB0_8B_REG             _at_            0xB08B;
+  86          u8      XDATA   BKB0_8C_REG             _at_            0xB08C;
+  87          u8  XDATA BKB0_4D_REG  _at_    0xB04D;
+  88          u8  XDATA BKB0_4F_REG  _at_    0xB04F;
+  89          u8  XDATA BKB0_51_REG  _at_    0xB051;
+  90          u8  XDATA BKB0_53_REG  _at_    0xB053;
+  91          u8  XDATA BKB0_55_REG  _at_    0xB055;
+  92          u8  XDATA BKB0_5C_REG  _at_    0xB05C;
+  93          u8  XDATA BKB0_5E_REG  _at_    0xB05E;
+  94          u8  XDATA BKB0_60_REG  _at_    0xB060;
+  95          u8  XDATA BKB0_62_REG  _at_    0xB062;
+  96          u8  XDATA BKB0_64_REG  _at_    0xB064;
+  97          u8  XDATA BKB0_66_REG  _at_    0xB066;
+  98          u8  XDATA BKB0_6D_REG  _at_    0xB06D;
+  99          u8  XDATA BKB0_6F_REG  _at_    0xB06F;
+ 100          u8  XDATA BKB0_71_REG  _at_    0xB071;
+ 101          u8  XDATA BKB0_73_REG  _at_    0xB073;
+ 102          u8  XDATA BKB0_75_REG  _at_    0xB075;
+ 103          u8  XDATA BKB0_77_REG  _at_    0xB077;
+ 104          u8  XDATA BKB0_7E_REG  _at_    0xB07E;
+ 105          u8  XDATA BKB0_80_REG  _at_    0xB080;
+ 106          u8  XDATA BKB0_82_REG  _at_    0xB082;
+ 107          u8  XDATA BKB0_84_REG  _at_    0xB084;
+ 108          u8  XDATA BKB0_86_REG  _at_    0xB086;
+ 109          
+ 110          u8      XDATA   BKB0_48_REG             _at_            0xB048;
+ 111          u8      XDATA   BKB0_49_REG             _at_            0xB049;
+ 112          u8      XDATA   BKB0_4A_REG             _at_            0xB04A;
+ 113          u8      XDATA   BKB0_59_REG             _at_            0xB059;
+ 114          u8      XDATA   BKB0_5A_REG             _at_            0xB05A;
+ 115          u8      XDATA   BKB0_5B_REG             _at_            0xB05B;
+ 116          u8      XDATA   BKB0_6A_REG             _at_            0xB06A;
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 3   
+
+ 117          u8      XDATA   BKB0_6B_REG             _at_            0xB06B;
+ 118          u8      XDATA   BKB0_6C_REG             _at_            0xB06C;
+ 119          u8      XDATA   BKB0_7B_REG             _at_            0xB07B;
+ 120          u8      XDATA   BKB0_7C_REG             _at_            0xB07C;
+ 121          u8      XDATA   BKB0_7D_REG             _at_            0xB07D;
+ 122          u8      XDATA   BKB0_8E_REG             _at_            0xB08E;
+ 123          u8      XDATA   BKB0_8F_REG             _at_            0xB08F;
+ 124          
+ 125          u8      XDATA   BKB0_00_REG             _at_            0xB000;
+ 126          u8      XDATA   BKB0_8C_REG             _at_            0xB08C;
+ 127          u8      XDATA   BKB0_8D_REG             _at_            0xB08D;
+ 128          u8      XDATA   BKB0_8E_REG             _at_            0xB08E;
+ 129          u8      XDATA   BKB0_8F_REG             _at_            0xB08F;
+ 130          
+ 131          u8      XDATA   BKB0_44_REG             _at_            0xB044;
+ 132          u8      XDATA   BKB0_55_REG             _at_            0xB055;
+ 133          u8      XDATA   BKB0_66_REG             _at_            0xB066;
+ 134          u8      XDATA   BKB0_77_REG             _at_            0xB077;
+ 135          u8      XDATA   BKB0_89_REG             _at_            0xB089;
+ 136          u8      XDATA   BKB0_92_REG             _at_            0xB092;
+ 137          u8      XDATA   BKB0_57_REG             _at_            0xB057;
+ 138          u8      XDATA   BKB0_5C_REG             _at_            0xB05c;
+ 139          u8      XDATA   BKB0_5E_REG             _at_            0xB05e;
+ 140          u8      XDATA   BKB0_60_REG             _at_            0xB060;
+ 141          u8      XDATA   BKB0_62_REG             _at_            0xB062;
+ 142          u8      XDATA   BKB0_64_REG             _at_            0xB064;
+ 143          u8      XDATA   BKB0_8A_REG             _at_            0xB08A;
+ 144          u8      XDATA   BKB0_8B_REG             _at_            0xB08B;
+ 145          u8      XDATA   BKB0_8C_REG             _at_            0xB08C;
+ 146          u8      XDATA   BKB0_4C_REG             _at_            0xB04C;
+ 147          u8      XDATA   BKB0_4E_REG             _at_            0xB04E;
+ 148          u8      XDATA   BKB0_50_REG             _at_            0xB050;
+ 149          u8      XDATA   BKB0_52_REG             _at_            0xB052;
+ 150          u8      XDATA   BKB0_54_REG             _at_            0xB054;
+ 151          u8      XDATA   BKB0_5D_REG             _at_            0xB05D;
+ 152          u8      XDATA   BKB0_5F_REG             _at_            0xB05F;
+ 153          u8      XDATA   BKB0_61_REG             _at_            0xB061;
+ 154          u8      XDATA   BKB0_63_REG             _at_            0xB063;
+ 155          u8      XDATA   BKB0_65_REG             _at_            0xB065;
+ 156          u8      XDATA   BKB0_6E_REG             _at_            0xB06E;
+ 157          u8      XDATA   BKB0_70_REG             _at_            0xB070;
+ 158          u8      XDATA   BKB0_72_REG             _at_            0xB072;
+ 159          u8      XDATA   BKB0_74_REG             _at_            0xB074;
+ 160          u8      XDATA   BKB0_76_REG             _at_            0xB076;
+ 161          u8      XDATA   BKB0_7F_REG             _at_            0xB07F;
+ 162          u8      XDATA   BKB0_81_REG             _at_            0xB081;
+ 163          u8      XDATA   BKB0_83_REG             _at_            0xB083;
+ 164          u8      XDATA   BKB0_85_REG             _at_            0xB085;
+ 165          u8      XDATA   BKB0_87_REG             _at_            0xB087;
+ 166          
+ 167          //BANK B8
+ 168          u8      XDATA   BKB8_14_REG             _at_            0xB814;
+ 169          u8      XDATA   BKB8_16_REG             _at_            0xB816;
+ 170          u8      XDATA   BKB8_21_REG             _at_            0xB821;
+ 171          u8      XDATA   BKB8_3A_REG             _at_            0xB83a;
+ 172          u8      XDATA   BKB8_0A_REG             _at_            0xB80A;
+ 173          u8      XDATA   BKB8_0B_REG             _at_            0xB80B;
+ 174          u8      XDATA   BKB8_3B_REG             _at_            0xB83B;
+ 175          u8      XDATA   BKB8_B1_REG             _at_            0xB8B1;
+ 176          u8      XDATA   BKB8_B2_REG             _at_            0xB8B2;
+ 177          u8      XDATA   BKB8_B3_REG             _at_            0xB8B3;
+ 178          //BANK D0
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 4   
+
+ 179          u8      XDATA   BKD0_09_REG             _at_            0xD009;
+ 180          u8      XDATA   BKD0_0A_REG             _at_            0xD00A;
+ 181          u8      XDATA   BKD0_0B_REG             _at_            0xD00B;
+ 182          u8      XDATA   BKD0_0F_REG             _at_            0xD00F;
+ 183          u8      XDATA   BKD0_13_REG             _at_            0xD013;
+ 184          u8      XDATA   BKD0_05_REG             _at_            0xD005;
+ 185          u8      XDATA   BKD0_00_REG             _at_            0xD000;
+ 186          u8      XDATA   BKD0_02_REG             _at_            0xD002;
+ 187          u8      XDATA   BKD0_03_REG             _at_            0xD003;
+ 188          u8      XDATA   BKD0_08_REG             _at_            0xD008;
+ 189          u8      XDATA   BKD0_11_REG             _at_            0xD011;
+ 190          u8      volatile XDATA  BKD0_12_REG             _at_            0xD012;
+ 191          
+ 192          
+ 193          //BANK D1
+ 194          u8      volatile  XDATA  BKD1_EB_REG            _at_            0xD1EB;
+ 195          //Bank D1
+ 196          u8      XDATA   BKD1_13_REG             _at_            0xD113;
+ 197          u8      XDATA   BKD1_14_REG             _at_            0xD114;
+ 198          u8      XDATA   BKD1_15_REG             _at_            0xD115;
+ 199          u8      XDATA   BKD1_10_REG             _at_            0xD110;
+ 200          u8      XDATA   BKD1_29_REG             _at_            0xD129;
+ 201          u8      XDATA   BKD1_2A_REG             _at_            0xD12a;
+ 202          u8  XDATA       BKD1_43_REG             _at_            0xD143;
+ 203          u8      XDATA   BKD1_46_REG             _at_            0xD146;
+ 204          u8      XDATA   BKD1_47_REG             _at_            0xD147;
+ 205          u8      XDATA   BKD1_48_REG             _at_            0xD148;
+ 206          u8      XDATA   BKD1_49_REG             _at_            0xD149;
+ 207          u8      XDATA   BKD1_45_REG             _at_            0xD145;
+ 208          u8      XDATA   BKD1_10_REG             _at_            0xD110;
+ 209          u8      XDATA   BKD1_18_REG             _at_            0xD118;
+ 210          u8      XDATA   BKD1_19_REG             _at_            0xD119;
+ 211          
+ 212          u8      XDATA   BKD1_CC_REG             _at_            0xD1CC;
+ 213          u8      XDATA   BKD1_CD_REG             _at_            0xD1CD;
+ 214          u8      XDATA   BKD1_CE_REG             _at_            0xD1CE;
+ 215          u8      XDATA   BKD1_CF_REG             _at_            0xD1CF;
+ 216          u8      XDATA   BKD1_D0_REG             _at_            0xD1D0;
+ 217          u8      XDATA   BKD1_D1_REG             _at_            0xD1D1;
+ 218          u8      XDATA   BKD1_D2_REG             _at_            0xD1D2;
+ 219          u8      XDATA   BKD1_D3_REG             _at_            0xD1D3;
+ 220          u8      XDATA   BKD1_D4_REG             _at_            0xD1D4;
+ 221          u8      XDATA   BKD1_D5_REG             _at_            0xD1D5;
+ 222          u8      XDATA   BKD1_D6_REG             _at_            0xD1D6;
+ 223          u8      XDATA   BKD1_D7_REG             _at_            0xD1D7;
+ 224          //BANK D2
+ 225          u8      XDATA   BKD2_4A_REG             _at_            0xD24A;
+ 226          u8      XDATA   BKD2_1F_REG             _at_            0xD21F;
+ 227          u8      XDATA   BKD2_81_REG             _at_            0xD281;
+ 228          u8      XDATA   BKD2_08_REG             _at_            0xD208;
+ 229          u8      XDATA   BKD2_10_REG             _at_            0xD210;
+ 230          u8      XDATA   BKD2_11_REG             _at_            0xD211;
+ 231          u8      XDATA   BKD2_0D_REG             _at_            0xD20D;
+ 232          u8      XDATA   BKD2_0C_REG             _at_            0xD20C;
+ 233          u8      XDATA   BKD2_15_REG             _at_            0xD215;
+ 234          u8      XDATA   BKD2_14_REG             _at_            0xD214;
+ 235          u8      XDATA   BKD2_07_REG             _at_            0xD207;
+ 236          u8      XDATA   BKD2_06_REG             _at_            0xD206;
+ 237          u8      XDATA   BKD2_0F_REG             _at_            0xD20F;
+ 238          u8      XDATA   BKD2_0E_REG             _at_            0xD20E;
+ 239          u8      XDATA   BKD2_0A_REG             _at_            0xD20A;
+ 240          u8      XDATA   BKD2_12_REG             _at_            0xD212;
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 5   
+
+ 241          u8      XDATA   BKD2_21_REG             _at_            0xD221;
+ 242          u8      XDATA   BKD2_22_REG             _at_            0xD222;
+ 243          u8      XDATA   BKD2_28_REG             _at_            0xD228;
+ 244          u8      XDATA   BKD2_37_REG             _at_            0xD237;
+ 245          u8      XDATA   BKD2_3C_REG             _at_            0xD23c;
+ 246          u8      XDATA   BKD2_3B_REG             _at_            0xD23b;
+ 247          u8      XDATA   BKD2_3A_REG             _at_            0xD23a;
+ 248          u8      XDATA   BKD2_3D_REG             _at_            0xD23d;
+ 249          u8      XDATA   BKD2_3E_REG             _at_            0xD23e;
+ 250          u8      XDATA   BKD2_67_REG             _at_            0xD267;
+ 251          u8      XDATA   BKD2_69_REG             _at_            0xD269;
+ 252          u8      XDATA   BKD2_00_REG             _at_            0xD200;
+ 253          u8      XDATA   BKD2_02_REG             _at_            0xD202;
+ 254          u8      XDATA   BKD2_01_REG             _at_            0xD201;
+ 255          u8      XDATA   BKD2_24_REG             _at_            0xD224;
+ 256          u8      XDATA   BKD2_25_REG             _at_            0xD225;
+ 257          u8      XDATA   BKD2_26_REG             _at_            0xD226;
+ 258          u8      XDATA   BKD2_47_REG             _at_            0xD247;
+ 259          u8      XDATA   BKD2_48_REG             _at_            0xD248;
+ 260          u8      XDATA   BKD2_49_REG             _at_            0xD249;
+ 261          u8      XDATA   BKD2_4A_REG             _at_            0xD24a;
+ 262          u8      XDATA   BKD2_2F_REG             _at_            0xD22f;
+ 263          u8      XDATA   BKD2_80_REG             _at_            0xD280;
+ 264          u8      XDATA   BKD2_7F_REG             _at_            0xD27f;
+ 265          
+ 266          u8      XDATA   BKD2_86_REG             _at_            0xD286;
+ 267          u8      XDATA   BKD2_87_REG             _at_            0xD287;
+ 268          u8      XDATA   BKD2_88_REG             _at_            0xD288;
+ 269          u8      XDATA   BKD2_96_REG             _at_            0xD296;
+ 270          u8      XDATA   BKD2_97_REG             _at_            0xD297;
+ 271          //BANK 90
+ 272          u8      XDATA   BK90_65_REG             _at_            0x9065;
+ 273          
+ 274          //BANK A0
+ 275          u8      XDATA   BKA0_15_REG             _at_            0xA015;
+ 276          u8      XDATA   BKA0_16_REG             _at_            0xA016;
+ 277          u8      XDATA   BKA0_18_REG             _at_            0xA018;
+ 278          u8      XDATA   BKA0_20_REG             _at_            0xA020;
+ 279          u8      XDATA   BKA0_A1_REG             _at_            0xA0A1;
+ 280          u8      XDATA   BKA0_91_REG             _at_            0xA091;
+ 281          u8      XDATA   BKA0_30_REG             _at_            0xA030;
+ 282          u8      XDATA   BKA0_32_REG             _at_            0xA032;
+ 283          u8      XDATA   BKA0_33_REG             _at_            0xA033;
+ 284          u8      XDATA   BKA0_34_REG             _at_            0xA034;
+ 285          u8      XDATA   BKA0_35_REG             _at_            0xA035;
+ 286          u8      XDATA   BKA0_36_REG             _at_            0xA036;
+ 287          u8      XDATA   BKA0_37_REG             _at_            0xA037;
+ 288          u8      XDATA   BKA0_38_REG             _at_            0xA038;
+ 289          u8      XDATA   BKA0_39_REG             _at_            0xA039;
+ 290          u8      XDATA   BKA0_3A_REG             _at_            0xA03A;
+ 291          u8      XDATA   BKA0_3B_REG             _at_            0xA03B;
+ 292          u8      XDATA   BKA0_3C_REG             _at_            0xA03C;
+ 293          u8      XDATA   BKA0_3D_REG             _at_            0xA03D;
+ 294          u8      XDATA   BKA0_3E_REG             _at_            0xA03E;
+ 295          u8      XDATA   BKA0_44_REG             _at_            0xA044;
+ 296          u8      XDATA   BKA0_45_REG             _at_            0xA045;
+ 297          u8      XDATA   BKA0_46_REG             _at_            0xA046;
+ 298          u8      XDATA   BKA0_48_REG             _at_            0xA048;
+ 299          u8      XDATA   BKA0_50_REG             _at_            0xA050;
+ 300          u8      XDATA   BKA0_43_REG             _at_            0xA043;
+ 301          u8      XDATA   BKA0_49_REG             _at_            0xA049;
+ 302          u8      XDATA   BKA0_A0_REG             _at_            0xA0A0;
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 6   
+
+ 303          u8      XDATA   BKA0_58_REG             _at_            0xA058;
+ 304          u8      XDATA   BKA0_90_REG             _at_            0xA090;
+ 305          u8      XDATA   BKA0_3F_REG             _at_            0xA03F;
+ 306          u8      XDATA   BKA0_40_REG             _at_            0xA040;
+ 307          u8      XDATA   BKA0_41_REG             _at_            0xA041;
+ 308          u8      XDATA   BKA0_42_REG             _at_            0xA042;
+ 309          u8      XDATA   BKA0_59_REG             _at_            0xA059;
+ 310          u8      XDATA   BKA0_57_REG             _at_            0xA057;
+ 311          u8      XDATA   BKA0_5E_REG             _at_            0xA05E;
+ 312          u8      XDATA   BKA0_5F_REG             _at_            0xA05F;
+ 313          u8      XDATA   BKA0_60_REG             _at_            0xA060;
+ 314          u8      XDATA   BKA0_61_REG             _at_            0xA061;
+ 315          u8      XDATA   BKA0_62_REG             _at_            0xA062;
+ 316          u8      XDATA   BKA0_63_REG             _at_            0xA063;
+ 317          u8      XDATA   BKA0_64_REG             _at_            0xA064;
+ 318          u8      XDATA   BKA0_65_REG             _at_            0xA065;
+ 319          u8      XDATA   BKA0_66_REG             _at_            0xA066;
+ 320          u8      XDATA   BKA0_67_REG             _at_            0xA067;
+ 321          u8      XDATA   BKA0_68_REG             _at_            0xA068;
+ 322          u8      XDATA   BKA0_69_REG             _at_            0xA069;
+ 323          u8      XDATA   BKA0_47_REG             _at_            0xA047;
+ 324          u8      volatile  XDATA  BKA0_1D_REG            _at_            0xA01D;
+ 325          u8      XDATA   BKA0_55_REG             _at_            0xA055;
+ 326          
+ 327          //BANK D8
+ 328          u8      XDATA   BKD8_00_REG             _at_            0xD800;
+ 329          u8      XDATA   BKD8_03_REG             _at_            0xD803;
+ 330          u8      XDATA   BKD8_19_REG             _at_            0xD819;
+ 331          u8      XDATA   BKD8_1F_REG             _at_            0xD81F;
+ 332          u8      XDATA   BKD8_50_REG             _at_            0xD850;
+ 333          u8      XDATA   BKD8_51_REG             _at_            0xD851;
+ 334          u8      XDATA   BKD8_52_REG             _at_            0xD852;
+ 335          u8      XDATA   BKD8_53_REG             _at_            0xD853;
+ 336          u8      XDATA   BKD8_54_REG             _at_            0xD854;
+ 337          u8      XDATA   BKD8_55_REG             _at_            0xD855;
+ 338          
+ 339          //BANK DA
+ 340          u8      XDATA   BKDA_FC_REG             _at_            0xDAFC;
+ 341          u8      XDATA   BKDA_A3_REG             _at_            0xDAA3;
+ 342          u8      XDATA   BKDA_A4_REG             _at_            0xDAA4;
+ 343          
+ 344          u8      XDATA   BKC0_06_REG             _at_            0xC006;
+ 345          
+ 346          u8      XDATA   BKC0_A3_REG             _at_            0xC0A3;
+ 347          u8      XDATA   BKC0_C0_REG             _at_            0xC0C0;
+ 348          // BANK C1
+ 349          u8      XDATA   BKC1_1E_REG             _at_            0xC11E;
+ 350          u8      XDATA   BKC1_9E_REG             _at_            0xC19E;
+ 351          u8      XDATA   BKC1_A3_REG             _at_            0xC1A3;
+ 352          u8      XDATA   BKC1_9A_REG             _at_            0xC19A;
+ 353          u8      XDATA   BKC1_98_REG             _at_            0xC198;
+ 354          u8      XDATA   BKC1_99_REG             _at_            0xC199;
+ 355          u8      XDATA   BKC1_AC_REG             _at_            0xC1AC;
+ 356          u8      XDATA   BKC1_8A_REG             _at_            0xC18A;
+ 357          u8      XDATA   BKC1_8B_REG             _at_            0xC18B;
+ 358          u8      XDATA   BKC1_97_REG             _at_            0xC197;
+ 359          u8      XDATA   BKC1_9F_REG             _at_            0xC19F;
+ 360          u8      XDATA   BKC1_8D_REG             _at_            0xC18D;
+ 361          u8      XDATA   BKC1_0D_REG             _at_            0xC10D;
+ 362          u8      volatile XDATA  BKC1_17_REG             _at_            0xC117;
+ 363          u8      volatile XDATA  BKC1_19_REG             _at_            0xC119;
+ 364          u8      XDATA   BKC1_0C_REG             _at_            0xC10C;
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 7   
+
+ 365          u8      XDATA   BKC1_8C_REG             _at_            0xC18C;
+ 366          u8      XDATA   BKC1_2F_REG             _at_            0xC12F;
+ 367          u8      XDATA   BKC1_AF_REG             _at_            0xC1AF;
+ 368          u8      XDATA   BKC1_2D_REG             _at_            0xC12D;
+ 369          u8      XDATA   BKC1_AD_REG             _at_            0xC1AD;
+ 370          u8      XDATA   BKC1_2E_REG             _at_            0xC12E;
+ 371          u8      XDATA   BKC1_AE_REG             _at_            0xC1AE;
+ 372          u8      XDATA   BKC1_22_REG             _at_            0xC122;
+ 373          u8      XDATA   BKC1_A2_REG             _at_            0xC1A2;
+ 374          u8      XDATA   BKC1_1F_REG             _at_            0xC11F;
+ 375          u8      XDATA   BKC1_31_REG             _at_            0xC131;
+ 376          u8      XDATA   BKC1_B1_REG             _at_            0xC1B1;
+ 377          u8      XDATA   BKC1_32_REG             _at_            0xC132;
+ 378          u8      XDATA   BKC1_33_REG             _at_            0xC133;
+ 379          u8      XDATA   BKC1_34_REG             _at_            0xC134;
+ 380          u8      XDATA   BKC1_35_REG             _at_            0xC135;
+ 381          u8      XDATA   BKC1_B2_REG             _at_            0xC1B2;
+ 382          u8      XDATA   BKC1_B3_REG             _at_            0xC1B3;
+ 383          u8      XDATA   BKC1_B4_REG             _at_            0xC1B4;
+ 384          u8      XDATA   BKC1_B5_REG             _at_            0xC1B5;
+ 385          u8      XDATA   BKC1_0A_REG             _at_            0xC10A;
+ 386          u8      XDATA   BKC1_1A_REG             _at_            0xC11A;
+ 387          u8      XDATA   BKC1_18_REG             _at_            0xC118;
+ 388          u8      XDATA   BKC1_15_REG             _at_            0xC115;
+ 389          u8      XDATA   BKC1_16_REG             _at_            0xC116;
+ 390          u8      XDATA   BKC1_95_REG             _at_            0xC195;
+ 391          u8      XDATA   BKC1_96_REG             _at_            0xC196;
+ 392          u8      XDATA   BKC1_2C_REG             _at_            0xC12C;
+ 393          u8      volatile  XDATA  BKC1_23_REG            _at_            0xC123;
+ 394          u8      volatile  XDATA  BKC1_A3_REG            _at_            0xC1A3;
+ 395          u8      XDATA   BKC1_1B_REG             _at_            0xC11B;
+ 396          u8      XDATA   BKC1_0B_REG             _at_            0xC10B;
+ 397          u8      XDATA   BKC1_36_REG             _at_            0xC136;
+ 398          u8      XDATA   BKC1_B6_REG             _at_            0xC1B6;
+ 399          u8      XDATA   BKC1_90_REG             _at_            0xC190;
+ 400          u8      XDATA   BKC1_91_REG             _at_            0xC191;
+ 401          u8      XDATA   BKC1_A8_REG             _at_            0xC1A8;
+ 402          u8      XDATA   BKC1_A9_REG             _at_            0xC1A9;
+ 403          u8      XDATA   BKC1_93_REG             _at_            0xC193;
+ 404          u8      XDATA   BKC1_9C_REG             _at_            0xC19C;
+ 405          // RANK C2
+ 406          u8      XDATA   BKC2_00_REG             _at_            0xC200;
+ 407          u8      volatile XDATA  BKC2_01_REG             _at_            0xC201;
+ 408          u8      volatile XDATA  BKC2_02_REG             _at_            0xC202;
+ 409          u8      XDATA   BKC2_03_REG             _at_            0xC203;
+ 410          u8      XDATA   BKC2_04_REG             _at_            0xC204;
+ 411          u8      XDATA   BKC2_05_REG             _at_            0xC205;
+ 412          u8      XDATA   BKC2_06_REG             _at_            0xC206;
+ 413          u8      XDATA   BKC2_07_REG             _at_            0xC207;
+ 414          u8      XDATA   BKC2_08_REG             _at_            0xC208;
+ 415          u8      XDATA   BKC2_09_REG             _at_            0xC209;
+ 416          u8      XDATA   BKC2_0A_REG             _at_            0xC20A;
+ 417          u8      XDATA   BKC2_0B_REG             _at_            0xC20B;
+ 418          u8      XDATA   BKC2_0C_REG             _at_            0xC20C;
+ 419          u8      XDATA   BKC2_0D_REG             _at_            0xC20D;
+ 420          u8      XDATA   BKC2_0E_REG             _at_            0xC20E;
+ 421          u8      XDATA   BKC2_0F_REG             _at_            0xC20F;
+ 422          u8      XDATA   BKC2_10_REG             _at_            0xC210;
+ 423          u8      XDATA   BKC2_11_REG             _at_            0xC211;
+ 424          u8      XDATA   BKC2_12_REG             _at_            0xC212;
+ 425          u8      XDATA   BKC2_17_REG             _at_            0xC217;
+ 426          u8      XDATA   BKC2_18_REG             _at_            0xC218;
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 8   
+
+ 427          u8      XDATA   BKC2_19_REG             _at_            0xC219;
+ 428          u8      XDATA   BKC2_1B_REG             _at_            0xC21B;
+ 429          u8      XDATA   BKC2_1D_REG             _at_            0xC21D;
+ 430          
+ 431          u8      XDATA   BKC2_20_REG             _at_            0xC220;
+ 432          u8      XDATA   BKC2_21_REG             _at_            0xC221;
+ 433          u8      XDATA   BKC2_22_REG             _at_            0xC222;
+ 434          u8      XDATA   BKC2_23_REG             _at_            0xC223;
+ 435          u8      XDATA   BKC2_24_REG             _at_            0xC224;
+ 436          u8      XDATA   BKC2_25_REG             _at_            0xC225;
+ 437          u8      XDATA   BKC2_26_REG             _at_            0xC226;
+ 438          u8      XDATA   BKC2_27_REG             _at_            0xC227;
+ 439          u8      XDATA   BKC2_28_REG             _at_            0xC228;
+ 440          u8      XDATA   BKC2_2A_REG             _at_            0xC22A;
+ 441          u8      XDATA   BKC2_2C_REG             _at_            0xC22C;
+ 442          u8      XDATA   BKC2_2D_REG             _at_            0xC22D;
+ 443          u8      XDATA   BKC2_2E_REG             _at_            0xC22E;
+ 444          u8      XDATA   BKC2_2F_REG             _at_            0xC22F;
+ 445          u8      XDATA   BKC2_31_REG             _at_            0xC231;
+ 446          u8      XDATA   BKC2_60_REG             _at_            0xC260;
+ 447          u8      XDATA   BKC2_30_REG             _at_            0xC230;
+ 448          u8      XDATA   BKC2_32_REG             _at_            0xC232;
+ 449          u8      XDATA   BKC2_33_REG             _at_            0xC233;
+ 450          u8      XDATA   BKC2_34_REG             _at_            0xC234;
+ 451          u8      XDATA   BKC2_35_REG             _at_            0xC235;
+ 452          u8      XDATA   BKC2_36_REG             _at_            0xC236;
+ 453          u8      XDATA   BKC2_37_REG             _at_            0xC237;
+ 454          u8      XDATA   BKC2_38_REG             _at_            0xC238;
+ 455          u8      XDATA   BKC2_39_REG             _at_            0xC239;
+ 456          u8      XDATA   BKC2_44_REG             _at_            0xC244;
+ 457          u8      XDATA   BKC2_1C_REG             _at_            0xC21C;
+ 458          u8      XDATA   BKC2_51_REG             _at_            0xC251;
+ 459          u8      XDATA   BKC2_52_REG             _at_            0xC252;
+ 460          u8      XDATA   BKC2_53_REG             _at_            0xC253;
+ 461          u8      XDATA   BKC2_54_REG             _at_            0xC254;
+ 462          u8      XDATA   BKC2_56_REG             _at_            0xC256;
+ 463          u8      XDATA   BKC2_57_REG             _at_            0xC257;
+ 464          u8      XDATA   BKC2_58_REG             _at_            0xC258;
+ 465          u8      XDATA   BKC2_59_REG             _at_            0xC259;
+ 466          u8      XDATA   BKC2_5A_REG             _at_            0xC25A;
+ 467          u8      XDATA   BKC2_5B_REG             _at_            0xC25B;
+ 468          u8      XDATA   BKC2_5C_REG             _at_            0xC25C;
+ 469          u8      XDATA   BKC2_5D_REG             _at_            0xC25D;
+ 470          u8      XDATA   BKC2_4C_REG             _at_            0xC24C;
+ 471          
+ 472          
+ 473          //BANK D2
+ 474          u8      volatile XDATA  BKD2_17_REG             _at_            0xD217;
+ 475          u8      volatile XDATA  BKD2_89_REG             _at_            0xD289;
+ 476          u8      volatile XDATA  BKD2_8A_REG             _at_            0xD28A;
+ 477          u8      volatile XDATA  BKD2_8B_REG             _at_            0xD28B;
+ 478          u8      volatile XDATA  BKD2_8C_REG             _at_            0xD28C;
+ 479          u8      volatile XDATA  BKD2_20_REG             _at_            0xD220;
+ 480          u8      XDATA   BKD2_19_REG             _at_            0xD219;
+ 481          u8      XDATA   BKD2_1C_REG             _at_            0xD21C;
+ 482          u8      XDATA   BKD2_4B_REG             _at_            0xD24B;
+ 483          u8      XDATA   BKD2_83_REG             _at_            0xD283;
+ 484          u8      XDATA   BKD2_A0_REG             _at_            0xD2A0;
+ 485          u8      XDATA   BKD2_05_REG             _at_            0xD205;
+ 486          //BANK D8
+ 487          u8      XDATA   BKD8_5A_REG             _at_            0xD85A;
+ 488          u8      XDATA   BKD8_5B_REG             _at_            0xD85B;
+C51 COMPILER V9.60.0.0   REGISTER                                                          06/03/2025 14:38:33 PAGE 9   
+
+ 489          u8      XDATA   BKD8_5C_REG             _at_            0xD85C;
+ 490          u8      XDATA   BKD8_5D_REG             _at_            0xD85D;
+ 491          u8      XDATA   BKD8_5E_REG             _at_            0xD85E;
+ 492          u8      XDATA   BKD8_5F_REG             _at_            0xD85F;
+ 493          
+ 494          //BANK DA
+ 495          u8      XDATA   BKDA_BA_REG             _at_            0xDABA;
+ 496          u8      XDATA   BKDA_BB_REG             _at_            0xDABB;
+ 497          u8      XDATA   BKDA_BC_REG             _at_            0xDABC;
+ 498          u8      XDATA   BKDA_BD_REG             _at_            0xDABD;
+ 499          u8      XDATA   BKDA_C4_REG             _at_            0xDAC4;
+ 500          u8      XDATA   BKDA_C5_REG             _at_            0xDAC5;
+ 501          
+ 502          //BANK DB
+ 503          u8      volatile XDATA  BKDB_CE_REG             _at_            0xDBCE;
+ 504          u8      XDATA   BKDB_A4_REG             _at_            0xDBA4;
+ 505          u8      XDATA   BKDB_C6_REG             _at_            0xDBC6;
+ 506          u8      XDATA   BKDB_C9_REG             _at_            0xDBC9;
+ 507          u8      XDATA   BKDB_CA_REG             _at_            0xDBCA;
+ 508          u8      XDATA   BKDB_CB_REG             _at_            0xDBCB;
+ 509          u8      XDATA   BKDB_C7_REG             _at_            0xDBC7;
+ 510          u8      XDATA   BKDB_CD_REG             _at_            0xDBCD;
+ 511          u8      XDATA   BKDB_C8_REG             _at_            0xDBC8;
+ 512          u8      XDATA   BKDB_CC_REG             _at_            0xDBCC;
+ 513          
+ 514          u8      XDATA   BKB8_B0_REG             _at_            0xB8B0;
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

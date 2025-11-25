@@ -1,0 +1,45 @@
+C51 COMPILER V9.60.0.0   GLOBALV                                                           06/03/2025 14:38:33 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE GLOBALV
+OBJECT MODULE PLACED IN .\Objects\globalV.obj
+COMPILER INVOKED BY: D:\DevTools\Keil_5\Keil_v5\C51\BIN\C51.EXE ..\User\globalV.c LARGE OPTIMIZE(8,SPEED) BROWSE INCDIR(
+                    -..\User) DEBUG OBJECTEXTEND PRINT(.\Listings\globalV.lst) OBJECT(.\Objects\globalV.obj)
+
+line level    source
+
+   1          #include "include.h"
+   2          
+   3          u8 g_FlagHdcpEn;
+   4          u8 g_ChipModel ;
+   5          u8 g_DisplayMode;
+   6          u8 g_OutputMode ;
+   7          u8 g_MipiFormat ;
+   8          u8 g_MipiType;
+   9          
+  10          u8 g_GpioMode;
+  11          u8 g_EdidBlockCalEnable;
+  12          u8 g_InputType ;
+  13          u8 time1_100ms;
+  14          u16 g_timer1_4scnt;
+  15          u32 g_MipiByteClock = 0;
+  16          bool g_FlagVideoChange = FALSE;
+  17          
+  18          bool Flag_Aux_Sleep;
+  19          u8 DP_HDCP_EN;
+  20          u32 g_RdDly;
+  21          u16 g_SampleRate;
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =     25    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

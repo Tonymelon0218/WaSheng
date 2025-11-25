@@ -1,0 +1,167 @@
+C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 13:42:56 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LT1605_DCS
+OBJECT MODULE PLACED IN .\Objects\lt1605_dcs.obj
+COMPILER INVOKED BY: D:\DevTools\Keil_5\Keil_v5\C51\BIN\C51.EXE ..\User\lt1605_dcs.c LARGE OPTIMIZE(8,SPEED) BROWSE INCD
+                    -IR(..\User) DEBUG OBJECTEXTEND PRINT(.\Listings\lt1605_dcs.lst) OBJECT(.\Objects\lt1605_dcs.obj)
+
+line level    source
+
+   1          
+   2          #include "include.h"
+   3          
+   4          #define LPK_DI 0x29
+   5          #define SPK_DI 0x15
+   6          
+   7          code u8 dcsrst[] = {0x05, 0x01, 0x00};
+   8          //*************************************
+   9          // Sleep-Out
+  10          //*************************************
+  11          code u8 Sleep_Out[] = {0x05, 0x11, 0x00};
+  12          code u8 Sleep_IN[] = {0x05, 0x10, 0x00};
+  13          // DELAY        120
+  14          //  Display-On
+  15          //*************************************
+  16          code u8 Display_On[] = {0x05, 0x29, 0x00};
+  17          code u8 Set_address_mode[] = {0x15, 0x36, 0x00};
+  18          code u8 Set_pixel_format[] = {0x15, 0x3A, 0x00};
+  19          #define CMDNUM (44)
+  20          
+  21          code u8 dcs0[] = {0x58, 0x00};
+  22          code u8 dcs1[] = {0x09, 0x01};
+  23          code u8 dcs2[] = {0xff, 0x00};
+  24          code u8 dcs3[] = {0x0a, 0x0b};
+  25          code u8 dcs4[] = {0x0b, 0x28};
+  26          code u8 dcs5[] = {0xff, 0x00};
+  27          code u8 dcs6[] = {0x10, 0x20};
+  28          code u8 dcs7[] = {0x11, 0x00};
+  29          code u8 dcs8[] = {0x12, 0x62};
+  30          code u8 dcs9[] = {0x13, 0x62};
+  31          code u8 dcs10[] = {0x18, 0x6c};
+  32          code u8 dcs11[] = {0x19, 0x0f};
+  33          code u8 dcs12[] = {0x1a, 0x00};
+  34          code u8 dcs13[] = {0x1b, 0x00};
+  35          code u8 dcs14[] = {0x20, 0x80};
+  36          code u8 dcs15[] = {0x21, 0x07};
+  37          
+  38          code u8 dcs16[] = {0x24, 0xb0};
+  39          code u8 dcs17[] = {0x25, 0x04};
+  40          code u8 dcs18[] = {0x26, 0x80};
+  41          code u8 dcs19[] = {0x27, 0x07};
+  42          
+  43          code u8 dcs20[] = {0x28, 0x20};
+  44          code u8 dcs21[] = {0x29, 0x00};
+  45          code u8 dcs22[] = {0x2a, 0x20};
+  46          code u8 dcs23[] = {0x2b, 0x00};
+  47          code u8 dcs24[] = {0x2c, 0x14};
+  48          code u8 dcs25[] = {0x2d, 0x00};
+  49          code u8 dcs26[] = {0x2e, 0x14};
+  50          code u8 dcs27[] = {0x2f, 0x00};
+  51          code u8 dcs28[] = {0x30, 0x04};
+  52          code u8 dcs29[] = {0x31, 0x00};
+  53          
+  54          code u8 dcs30[] = {0x32, 0x04};
+C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 13:42:56 PAGE 2   
+
+  55          code u8 dcs31[] = {0x33, 0x00};
+  56          code u8 dcs32[] = {0x34, 0x0c};
+  57          code u8 dcs33[] = {0x35, 0x00};
+  58          code u8 dcs34[] = {0x36, 0x14};
+  59          code u8 dcs35[] = {0x37, 0x00};
+  60          code u8 dcs36[] = {0x38, 0x34};
+  61          code u8 dcs37[] = {0x39, 0x00};
+  62          code u8 dcs38[] = {0x3a, 0x13};
+  63          code u8 dcs39[] = {0x3b, 0x00};
+  64          
+  65          code u8 dcs40[] = {0xff, 0x00};
+  66          code u8 dcs41[] = {0x0d, 0x01};
+  67          code u8 dcs42[] = {0xff, 0x00};
+  68          code u8 dcs43[] = {0x09, 0x00};
+  69          
+  70          code u8 *cmdlist[] = {
+  71                  dcs0, dcs1, dcs2, dcs3, dcs4, dcs5, dcs6, dcs7, dcs8, dcs9, dcs10, 
+  72                  dcs11, dcs12, dcs13, dcs14, dcs15, dcs16, dcs17, dcs18, dcs19, dcs20, 
+  73                  dcs21, dcs22, dcs23, dcs24, dcs25, dcs26, dcs27, dcs28, dcs29, dcs30, 
+  74                  dcs31, dcs32, dcs33, dcs34, dcs35, dcs36, dcs37, dcs38, dcs39, dcs40, 
+  75                  dcs41, dcs42, dcs43 //,dcs44,dcs45,dcs46,dcs47,dcs48,dcs49
+  76          };
+  77          
+  78          code u8 cmdlen[] = {
+  79                  sizeof(dcs0), sizeof(dcs1), sizeof(dcs2), sizeof(dcs3), sizeof(dcs4), sizeof(dcs5), 
+  80                  sizeof(dcs6), sizeof(dcs7), sizeof(dcs8), sizeof(dcs9), sizeof(dcs10), sizeof(dcs11), 
+  81                  sizeof(dcs12), sizeof(dcs13), sizeof(dcs14), sizeof(dcs15), sizeof(dcs16), sizeof(dcs17),
+  82                  sizeof(dcs18), sizeof(dcs19), sizeof(dcs20), sizeof(dcs21), sizeof(dcs22), sizeof(dcs23), 
+  83                  sizeof(dcs24), sizeof(dcs25), sizeof(dcs26), sizeof(dcs27), sizeof(dcs28), sizeof(dcs29), 
+  84                  sizeof(dcs30), sizeof(dcs31), sizeof(dcs32), sizeof(dcs33), sizeof(dcs34), sizeof(dcs35), 
+  85                  sizeof(dcs36), sizeof(dcs37), sizeof(dcs38), sizeof(dcs39), sizeof(dcs40), sizeof(dcs41), 
+  86                  sizeof(dcs42), sizeof(dcs43) //,sizeof(dcs44),sizeof(dcs45),sizeof(dcs46),sizeof(dcs47),sizeof(dcs48),siz
+             -eof(dcs49)
+  87          };
+  88          
+  89          void DcsPktWrite(u8 DCS_DI, u8 Len, u8 *Ptr)
+  90          {
+  91   1              u8 i = 0;
+  92   1              chip_write_i2c(0xC21C, 0x40); // Write enable;
+  93   1              if (Len == 2)
+  94   1              {
+  95   2                      chip_write_i2c(0xC218, 0x0C); // Hardware calculate ecc and crc&LP mode send pkt enable&Short pkt
+  96   2                      chip_write_i2c(0xC219, 0x04);
+  97   2                      chip_write_i2c(0xC234, DCS_DI);
+  98   2                      chip_write_i2c(0xC234, *Ptr);
+  99   2                      chip_write_i2c(0xC234, *(Ptr + 1));
+ 100   2              }
+ 101   1              else
+ 102   1              {
+ 103   2                      chip_write_i2c(0xC218, 0x0E);
+ 104   2                      chip_write_i2c(0xC219, Len + 6);
+ 105   2                      chip_write_i2c(0xC234, DCS_DI);
+ 106   2                      chip_write_i2c(0xC234, Len);
+ 107   2                      chip_write_i2c(0xC234, 0x00);
+ 108   2                      for (i = 0; i < Len; i++)
+ 109   2                      {
+ 110   3                              chip_write_i2c(0xC234, *Ptr);
+ 111   3                              Ptr++;
+ 112   3                      }
+ 113   2              }
+ 114   1              DelayMs(1);
+ 115   1              chip_write_i2c(0xC218, 0x00);
+C51 COMPILER V9.60.0.0   LT1605_DCS                                                        11/25/2025 13:42:56 PAGE 3   
+
+ 116   1      }
+ 117          
+ 118          void InitPanel(void)
+ 119          {
+ 120   1              u8 dcslen = 0, i = 0;
+ 121   1              for (i = 0; i < CMDNUM; i++)
+ 122   1              {
+ 123   2                      dcslen = cmdlen[i]; // sizeof(dcs##CMDNUM(i));
+ 124   2                      if (dcslen == 2)
+ 125   2                              DcsPktWrite(SPK_DI, dcslen, cmdlist[i]); // shot
+ 126   2                      else if (dcslen > 2)
+ 127   2                              DcsPktWrite(LPK_DI, dcslen, cmdlist[i]); // long
+ 128   2              }
+ 129   1              DcsPktWrite(Sleep_Out[0], (sizeof(Sleep_Out) - 1), &Sleep_Out[1]);
+ 130   1              DelayMs(150);
+ 131   1              //      DcsPktWrite( Set_address_mode[0], ( sizeof( Set_address_mode ) - 1 ), &Set_address_mode[1] );
+ 132   1              //      DelayMs(150);
+ 133   1              //      DcsPktWrite( Set_pixel_format[0], ( sizeof( Set_pixel_format ) - 1 ), &Set_pixel_format[1] );
+ 134   1              DcsPktWrite(Display_On[0], (sizeof(Display_On) - 1), &Display_On[1]);
+ 135   1              DelayMs(200);
+ 136   1      }
+ 137          
+ 138          /************************************** The End Of File **************************************/
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    410    ----
+   CONSTANT SIZE    =    282    ----
+   XDATA SIZE       =   ----       8
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

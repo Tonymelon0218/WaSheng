@@ -1,0 +1,1 @@
+"..\User\edid.c" LARGE OPTIMIZE (8,SPEED) BROWSE INCDIR(..\User) DEBUG OBJECTEXTEND PRINT(.\Listings\edid.lst) OBJECT(.\Objects\edid.obj)

@@ -1,0 +1,1 @@
+"..\User\lt1605_dcs.c" LARGE OPTIMIZE (8,SPEED) BROWSE INCDIR(..\User) DEBUG OBJECTEXTEND PRINT(.\Listings\lt1605_dcs.lst) OBJECT(.\Objects\lt1605_dcs.obj)

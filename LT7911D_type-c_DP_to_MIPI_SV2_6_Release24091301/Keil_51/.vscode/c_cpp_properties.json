@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "LT7911_mlcode",
+            "includePath": [
+                "d:\\VVY\\Lontium\\04.客户\\W\\蛙声\\WaSheng\\LT7911D_type-c_DP_to_MIPI_SV2_6_Release24091301\\User",
+                "d:\\VVY\\Lontium\\04.客户\\W\\蛙声\\WaSheng\\LT7911D_type-c_DP_to_MIPI_SV2_6_Release24091301\\Keil_51"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
